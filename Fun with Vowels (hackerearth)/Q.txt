@@ -1,0 +1,21 @@
+A subsequence is a sequence of letters in a string in order, but with any number of character removed.
+
+For example, 3 letter subsequences of abcd are abc, abd, acd and bcd. Vowels are letters in the string aeiou.
+
+Given a string, determine the length of the longest subsequence that contains all the vowels in order.
+
+For example, the string aeeiiouu contains all the vowels in order. The string aeeiiaou does not because of the ‘a’ at position 5, (0 based indexing). The first string is the longest subsequence of the second string that contains all vowels in order.
+
+Constraints:
+
+5 <  |s|  < 5 x 105
+
+Each character of the string s = {a,e,i,o,u}
+
+Input:
+
+Single line contain a string S.
+
+Output:
+
+Print a single integer which is the length of the longest subsequence that contains all the vowels in order.
